@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Site</title>
+</head>
+<body>
+    <h1>Welcome to My Website!</h1>
+    <p>This is a test site for my chatbot.</p>
+
+    <!-- Dialogflow bot will go here -->
+    <div id="chatbot"></div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Website-bot"
+      agent-id="7836a458-1e41-444c-8c01-8e8cb0629fc0"
+      language-code="en"
+    ></df-messenger>
+    
+</body>
+</html>
